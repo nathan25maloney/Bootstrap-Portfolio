@@ -1,6 +1,8 @@
 .navbar-default {
 	background-image: none;
-	background-color: grey;
+	background-color: white;
+	border-bottom: solid;
+	border-color: #4aaaa5;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -8,31 +10,54 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fff;
+    color: #545356;
+}
+
+.nav>li {
+    position: relative;
+    display: inline;
+    float: left;
+    padding-top: 0px;
+    margin-top: 5px;
 }
 
 .navbar-default .navbar-brand {
-    color: #dfdcdc;
-    background-color: teal;
+    color: white;
+    background-color: #4aaaa5;
+    padding-left: 25px;
+    padding-top: 27px;
+    padding-right: 25px;
+    padding-bottom: 42px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 6px;
 }
 
 .navbar-default .navbar-brand:hover {
     color: black;
-    background-color: teal;
+    background-color: #4aaaa5;
 }
 
 .navbar-brand:after {
 	color: black;
-	background-color: teal;
+	background-color: #4aaaa5;
 }
 
 .navbar-nav {
     float: right;
     margin: 0;
+    padding-top: 10px;
 }
 
 .navbar-default .navbar-toggle {
     background-color: white;
+    border-color: #ddd;
+    margin-top: 49px;
+    margin-bottom: 0px;
 }
 
 .navbar-default .navbar-toggle:after {
@@ -48,14 +73,15 @@
 }
 
 
+
 .col-md-3{
 	padding: 20px 20px 60px 20px;
 	/*margin: 20px 0px 0px 0px;*/
-	background-color: grey;
+	background-color: white;
 }
 
 .col-md-5{
-	background-color: grey;
+	background-color: white;
 	margin-bottom: 20px;
 }
 
@@ -79,7 +105,42 @@ textarea {
 	margin-top: 20px;
 	padding-top: 20px;
 	text-align: center;
-	background-color: grey;
+	background-color: darkgrey;
 	border-top: solid;
-	border-color: teal;
+	border-color: #4aaaa5;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+h4 {
+	position: absolute;
+    margin-top: -59px;
+    margin-bottom: 0px;
+    margin-left: 32px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 30px 10px 30px;
 }

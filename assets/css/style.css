@@ -1,0 +1,85 @@
+.navbar-default {
+	background-image: none;
+	background-color: grey;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #dfdcdc;
+    background-color: teal;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: black;
+    background-color: teal;
+}
+
+.navbar-brand:after {
+	color: black;
+	background-color: teal;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:after {
+    background-color: white;
+}
+.ProfilePic {
+	float: left;
+	margin: 5px 8px 5px 0px;
+
+}
+.portfolio {
+	margin: 20px;
+}
+
+
+.col-md-3{
+	padding: 20px 20px 60px 20px;
+	/*margin: 20px 0px 0px 0px;*/
+	background-color: grey;
+}
+
+.col-md-5{
+	background-color: grey;
+	margin-bottom: 20px;
+}
+
+body  {
+	background-image: url("../images/grey_wash_wall.png");
+}
+
+a {
+	margin: 5px;
+}
+
+input {
+	background-color: #ddd;
+}
+
+textarea {
+	background-color: #ddd;
+}
+
+#footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	text-align: center;
+	background-color: grey;
+	border-top: solid;
+	border-color: teal;
+}
